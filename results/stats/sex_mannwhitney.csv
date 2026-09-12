@@ -1,0 +1,9 @@
+metric,M_n,F_n,M_mean,F_mean,U,p,sig_p05,r_effect
+mean_fix_ms,13,8,293.77,318.12,30.0,0.1213,False,0.423
+median_fix_ms,13,8,217.69,239.38,23.5,0.0418,True,0.548
+fixation_rate_per_min,13,8,148.31,136.48,80.0,0.0446,True,-0.538
+pct_short_fix,13,8,6.72,5.07,79.5,0.05,False,-0.529
+pct_long_fix,13,8,29.15,34.49,23.0,0.039,True,0.558
+blink_rate_per_min,13,8,28.73,31.73,42.0,0.5002,False,0.192
+mean_blink_ms,13,8,272.52,298.64,28.0,0.089,False,0.462
+mean_sacc_amp_deg,13,8,14.71,14.7,49.0,0.8596,False,0.058

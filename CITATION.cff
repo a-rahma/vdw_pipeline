@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "VDW Eye-Tracking Analysis Pipeline"
+abstract: >-
+  Analysis pipeline for a Voice-Directed Warehousing (VDW)
+  eye-tracking study. Processes Pupil Labs Neon exports; assigns each logged event a descriptive category (signage, drop, label, sticker, pallet movement, etc.); computes per-event windowed metrics (fixation duration, blink rate, gaze position and heatmap); performs non-parametric group comparisons by sex, origin, and warehouse location; and renders per-participant HTML dashboards.
+authors:
+  - family-names: "Rahma"
+    given-names: "Arina Resyta"
+    orcid: "https://orcid.org/0009-0005-2102-4102"
+    affiliation: "Technische Universität Berlin"
+version: 1.0.0
+date-released: 2026-01-01
+license: GPL v3
+repository-code: "https://github.com/a-rahma/vdw_pipeline_upload"
+url: "https://github.com/a-rahma/vdw_pipeline_upload"
+keywords:
+  - eye-tracking
+  - warehouse
+  - voice-directed warehousing
+  - Pupil Labs Neon
+  - order picking
+  - human factors
+type: software
+
+references:
+  - type: software
+    title: "ATLAS.ti"
+    version: "24"
+    authors:
+      - name: "ATLAS.ti Scientific Software Development GmbH"
+    year: 2024
+    url: "https://atlasti.com"
+    notes: "Used to code interview transcripts informing the study design."
+
+  - type: software
+    title: "Pupil Labs Neon"
+    version: "Firmware 29.8, Companion App 2.9.31"
+    authors:
+      - name: "Pupil Labs GmbH"
+    year: 2024
+    url: "https://pupil-labs.com/products/neon"
+    notes: "Eye-tracker used for data acquisition."
+
+  - type: article
+    authors:
+      - family-names: "Salvucci"
+        given-names: "Dario D."
+      - family-names: "Goldberg"
+        given-names: "Joseph H."
+    title: "Identifying fixations and saccades in eye-tracking protocols"
+    year: 2000
+    journal: "Proceedings of the 2000 Symposium on Eye Tracking Research & Applications"
+    doi: 10.1145/355017.355028
