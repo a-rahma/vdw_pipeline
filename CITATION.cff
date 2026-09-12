@@ -17,7 +17,7 @@ authors:
     affiliation: "Technische Universität Berlin"
 version: "0.2"
 date-released: 2026-01-01
-license: GPLv3
+license: GPL-3.0-or-later
 repository-code: "https://github.com/a-rahma/vdw_pipeline"
 url: "https://github.com/a-rahma/vdw_pipeline"
 keywords:
